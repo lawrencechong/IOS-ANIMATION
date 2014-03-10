@@ -1,0 +1,25 @@
+IOS-ANIMATION
+=============
+
+This is a small IOS animation project.
+
+For this project I decided to make an ios animation of Aladdin running in the city with a knife.
+ 
+The animation was created using 10 different pictures of Aladdins using
+	NSArray withObjects
+	rNSTimerscheduledTimerWithTimeInterval that repeated
+
+On the Top there are three buttons
+	Music:
+		plays music when the button is pressed
+	Trouble:
+		Shows Jafar and the bird
+		their coordinates are generated randomly
+	Hide:
+		Makes Jafar and the bird hidden
+
+Things To do in the future:
+	Make Jafar and the bird continuously move on the screen, not just stop at a point
+	change Aladdin when he Jafar and the bird is hidden
+	Mute the music when pressed on
+	Collision detection
